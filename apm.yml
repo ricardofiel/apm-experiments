@@ -1,0 +1,13 @@
+name: apm-experiments
+version: 1.0.0
+description: APM project for apm-experiments
+author: Ricardo Fiel
+targets:
+- claude
+- copilot
+dependencies:
+  apm:
+  - microsoft/apm-sample-package#v1.0.0
+  mcp: []
+includes: auto
+scripts: {}
